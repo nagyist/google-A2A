@@ -1361,7 +1361,7 @@ data: {"task": {"id": "task-uuid", "status": {"state": "working"}}}
 
 data: {"artifactUpdate": {"taskId": "task-uuid", "artifact": {"parts": [{"text": "# Climate Change Report\n\n"}]}}}
 
-data: {"statusUpdate": {"taskId": "task-uuid", "status": {"state": "completed"}, "final": true}}
+data: {"statusUpdate": {"taskId": "task-uuid", "status": {"state": "completed"}}}
 ```
 
 ### 6.3. Multi-Turn Interaction
@@ -1696,8 +1696,7 @@ X-A2A-Notification-Token: secure-client-token-for-task-aaa
     "status": {
       "state": "completed",
       "timestamp": "2024-03-15T18:30:00Z"
-    },
-    "final": true
+    }
   }
 }
 ```
